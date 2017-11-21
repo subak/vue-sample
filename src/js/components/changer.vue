@@ -1,7 +1,7 @@
 <template>
     <div>
-        <input type="button" value="update vehicle:1" v-on:click="update(id)" />
-        {{latLng()}}
+        <input type="button" value="update vehicle" v-on:click="update(id)" />
+        {{id}}: {{latLng()}}
     </div>
 </template>
 
